@@ -1,0 +1,72 @@
+div.tooltip {
+  position: absolute;
+  text-align: center;
+  padding: 2px;
+  font: 12px sans-serif;
+  background: white;
+  border: 2px black;
+  border-radius: 4px;
+}
+
+.container {
+  max-width: 90%;
+}
+
+#navbar-wrapper ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  /* background-color: #f1f1f1; */
+}
+
+#navbar-wrapper li {
+  float: left;
+}
+
+#navbar-wrapper li a {
+  display: block;
+  color: whitesmoke;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+#navbar-wrapper li a:hover {
+  background-color: lightgrey;
+  color: #000;
+}
+
+div.basic-info {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+path {
+  fill-rule: evenodd;
+}
+
+/* For Reactome layout and some CSS */
+
+.reactome-text {
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 2px;
+  padding: 2px 0;
+
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+}
+
+.pwp-ViewerContainer {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+a.reactome-resource:hover .reactome-text {
+  visibility: visible;
+}

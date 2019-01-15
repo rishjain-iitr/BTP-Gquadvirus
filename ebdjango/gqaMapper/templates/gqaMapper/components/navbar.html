@@ -1,0 +1,23 @@
+<nav id="navbar-wrapper" class="navbar bg-dark navbar-expand" style="padding:0em">
+    <div class="container">
+        <h3 class="">
+            <a href="{% url "gqaMapper:index" %}">
+                <span class="title font-weight-bold" style=" font: 0.7em sans-serif; color: whitesmoke;">
+                    <b>G-Quad-Virus</b>
+                </span>
+                <span class="description font-italic font-weight-light" style=" font: 0.6em sans-serif; color: whitesmoke;">A tool for analysing G-Quadruplex sequence in Human Virses</span>
+            </a>
+        </h3>
+        <ul>
+            <li>
+                <a href="{% url "gqaMapper:index" %}" class="" target="_self">Home</a>
+            </li>
+            <li>
+                <a href="{% url "gqaMapper:search" %}" class="" target="_self">Search</a>
+            </li>
+            <li>
+                <a href="{% url "gqaMapper:help" %}" class="" target="_self">Help</a>
+            </li>
+        </ul>
+    </div>
+</nav>

@@ -1,0 +1,23 @@
+{% load static %} <!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>{{ title }}</title>
+
+    {% include 'gqaMapper/components/stylesheets.html' %}
+    <!-- include any other custom style blocks -->
+    {% block style %}{% endblock %}
+  </head>
+
+  <body>
+    {% include 'gqaMapper/components/navbar.html' %}
+
+    <div class="container">{% block body %}{% endblock %}</div>
+
+    {% include 'gqaMapper/components/javascript.html' %}
+
+    <!-- include any other javascript blocks -->
+    {% block javascript %}{% endblock %}
+  </body>
+</html>

@@ -1,0 +1,44 @@
+
+
+.container {
+  max-width: 90%;
+}
+
+#navbar-wrapper ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  /* background-color: #f1f1f1; */
+}
+
+#navbar-wrapper li {
+  float: left;
+}
+
+#navbar-wrapper li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+#navbar-wrapper li a:hover {
+  background-color: lightgrey;
+  color: #000;
+}
+
+div.basic-info {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+path {
+  fill-rule: evenodd;
+}
+
+.pwp-ViewerContainer {
+  margin-left: auto;
+  margin-right: auto;
+}

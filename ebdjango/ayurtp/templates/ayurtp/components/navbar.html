@@ -1,0 +1,26 @@
+{% load static %}
+<nav id="navbar-wrapper" class="navbar bg-light navbar-expand" style="padding:0em">
+    <div class="container">
+        <a class="navbar-brand" href='{% url "ayurtp:index" %}'>
+            <img src='{% static "ayurtp/img/logo.png" %}' width="30" height="30" class="d-inline-block align-top" alt="">
+            Ayurvedic Therapeutics
+        </a>
+        <ul>
+            <li>
+                <a href='{% url "ayurtp:index" %}' class="" target="_self">Home</a>
+            </li>
+            <li>
+                <a href='{% url "ayurtp:search" %}' class="" target="_self">Search</a>
+            </li>
+            <li>
+                <a href='{% url "ayurtp:download" %}' class="" target="_self">Download</a>
+            </li>
+            <li>
+                <a href='{% url "ayurtp:statistics" %}' class="" target="_self">Statistics</a>
+            </li>
+            <li>
+                <a href='{% url "ayurtp:help" %}' class="" target="_self">Help</a>
+            </li>
+        </ul>
+    </div>
+</nav>
